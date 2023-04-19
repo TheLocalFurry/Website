@@ -1,0 +1,116 @@
+/** PAGE BACKGROUNDS **/
+.background-1{
+    background-image: url("https://cdn.hswstatic.com/gif/quantum-entanglement.jpg");
+}
+.background-2{
+    background-image: url("https://www.phys.ethz.ch/research/highlights/research-highlights/2017/04/taming-complexity/_jcr_content/pageimages/imageCarousel.imageformat.lightbox.918703477.jpg");
+}
+.background-3{
+    background-image: url("https://uploads-ssl.webflow.com/5f44b6c70fbca212a2676405/61f77c9944fbf51dc18af01b_qml.jpeg");
+}
+
+/** TEXT **/
+.notfound{
+    color:red;
+    background-color:black;
+}
+.restricted{
+    color:darkred;
+    background-color:white;
+    content:"Information has been deemed classified by order of the founding personnel of epsilon.";
+    transition: content 0.1s;
+}
+
+p{
+    color:white;
+    background-color:#304656;
+}
+h4{
+    color:white;
+    background-color:#304656;
+}
+h4:hover{
+    color:black;
+    background-color:white;
+    font-size:20px;
+    transition: font-size 0.3s;
+}
+.grey-text{
+    color:#304656;
+}
+
+#page-title{
+    color:white;
+}
+/** IMAGES **/
+#pfp{
+    width:125px;
+    height:125px;
+}
+
+/** TABLES **/
+table{
+    background-color:#304656;
+    color:white;
+}
+/**td:hover{
+   font-size:20px; 
+   background-color:white;
+   color:black;
+   transition:font-size 0.3s, background-color 0.3s, color 0.3s;
+}**/
+tr:hover{
+   font-size:20px; 
+   background-color:black;
+   filter:invert(100%);
+   transition:font-size 0.3s, background-color 0.3s, filter 0.3s;
+}
+
+/** BUTTONS **/
+button{
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 80px;
+    margin: 10px;
+    font-size: 15px;
+    outline: none;
+}
+button:hover{
+   background-color:white;
+   color:black;
+}
+
+button{
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s, color 0.3s, font-size 0.3s, filter 5s;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    font-size:20px;
+}
+
+/** OTHERS **/
+.safe{
+   background-color:black; 
+   color:green;
+}
+.hazard{
+    background-color:black;
+    color:orange;
+}
+.dangerous{
+    background-color:black;
+    color:red;
+}
+.apollyon{
+    background-color:black;
+    color:purple;
+}
+.unknown{
+    background-color:black;
+    color:#304656;
+}
