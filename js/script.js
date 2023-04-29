@@ -4,7 +4,7 @@ var ww = window.innerWidth,
 
 //Create a WebGL renderer
 var renderer = new THREE.WebGLRenderer({
-  canvas: document.querySelector("canvas")
+  canvas: document.querySelector("body")
 });
 renderer.setSize(ww, wh);
 
