@@ -1,0 +1,41 @@
+----------------------------------------------------------------------------
+[ Sass ] -------------
+Installing SASS
+npm install node-sass --save-dev
+
+-effects-
+package.json >
+	"scripts": {
+		"compile:sass": "node-sass src/core/scss/main.scss dist/windows-ui-web.css",
+		},
+
+--compile--
+
+npm run compile:sass
+npm run compile:sass-win10
+
+----------------------------------------------------------------------------
+[ Gulp ] --------------
+Installing Gulp globally
+npm -g install gulp-cli
+
+Then -
+
+npm install gulp
+npm install gulp-uglify
+npm install gulp-concat
+
+--compile--
+
+gulp bundleJs
+
+----------------------------------------------------------------------------
+[ Gulp Docs Template Builder ] --------------
+Installing Gulp Pug
+npm install gulp-pug
+
+--compile--
+
+gulp compilePug
+
+-----------------------------------------------------------------------------
