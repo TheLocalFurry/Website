@@ -1,370 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
 <html>
     <head>
-    <meta charset="UTF-8">
     <title>Wrecker's Homepage</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-   <!-- <style>
-       
-        body {
-            background-image: url("https://cdn.hswstatic.com/gif/quantum-entanglement.jpg");
-        }
-       p{
-           color:white;
-           background-color:#304656;
-       }
-       .grey-text{
-           color:#304656;
-       }
-       #pfp{
-           width:125px;
-           height:125px;
-       }
-       #page-title{
-           color:white;
-       }
-       table{
-           background-color:#304656;
-           color:white;
-       }
-        
-    </style> -->
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#EEE" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="./docs/css/code-styles.css" />
+    <link rel="shortcut icon" href="./docs/public/favicon.ico" />
+    <link rel="stylesheet" href="dist/icons/winui-icons.min.css" />
+    <link rel="stylesheet" type="text/css" href="dist/config/app-config.css" />
+    <link rel="stylesheet" type="text/css" href="dist/windows-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="docs/css/home.css" />
     </head>
     
-    <body>
-        <div class="wrapper">
-        <h1 id="page-title">Wrecker's Homepage</h1>
-      <!--  <img id="pfp" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSae07ojiCzbtByX-ukaXD4oyKKaHLAzQvQXTNRQpcT749rTIFEo8V2-8lbpwnpQYXPaWs&usqp=CAU">
-        <br>
-        <br>-->
-        <p>Hello!</p>
-        <p>Welcome to my website.</p>
-        <p>Please note, this page is a work in progress and anything you see is subject to change.</p>
-        <h3>ㅤ</h3>
-        <p>Come join my Discord server since you're here.</p>
-        <iframe src="https://discord.com/widget?id=1059732290961420318&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-        <!--<h3>ㅤ</h3>-->
-        <br>
-        <a href="404.html"><button>404 Test</button></a>
-        <br>
-        <a href="gxmes.html"><button>Gxmes</button></a>
-        <h3>ㅤ</h3>
-      <!--  <p>This page contains information about Epsilon Corporation and the sites that are owned by Epsilon.</p>
-        <p>Below are the protocols for the Research Installation.</p>
-        <h3>ㅤ</h3>
-        <h3>ㅤ</h3> -->
-        
-        
-        <!-- Template (I know it looks weird but it pastes correctly like this)
-        <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>ㅤ</td>
-                    </tr>
-                    -->
-        
-        
-       <!-- <p>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Codename</th>
-                        <th>ID</th>
-                        <th>Operator Type Deployed</th>
-                        <th>Lockdown</th>
-                        <th>Intended to be lethal</th>
-                        <th>Clearance required to engage/disengage</th>
-                        <th>REDACTED</th>
-                        <th>Sectors affected</th>
-                        <td>ㅤ</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>BLACKBOX</td>
-                        <td>A1</td>
-                        <td>N-CN9</td>
-                        <td>false</td>
-                        <td>true</td>
-                        <td>SC-OMNI</td>
-                        <td>false</td>
-                        <td>All</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>L0LD</td>
-                        <td>A2</td>
-                        <td>None</td>
-                        <td>true</td>
-                        <td>false</td>
-                        <td>SC-3</td>
-                        <td>false</td>
-                        <td>Depends</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>L1LD</td>
-                        <td>A3</td>
-                        <td>None</td>
-                        <td>true</td>
-                        <td>false</td>
-                        <td>SC-3</td>
-                        <td>false</td>
-                        <td>Depends</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>L2LD</td>
-                        <td>A4</td>
-                        <td>None</td>
-                        <td>true</td>
-                        <td>false</td>
-                        <td>SC-3</td>
-                        <td>false</td>
-                        <td>Depends</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>L3LD</td>
-                        <td>A5</td>
-                        <td>None</td>
-                        <td>true</td>
-                        <td>false</td>
-                        <td>SC-4</td>
-                        <td>false</td>
-                        <td>Depends</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>L4LD</td>
-                        <td>A6</td>
-                        <td>None</td>
-                        <td>true</td>
-                        <td>false</td>
-                        <td>SC-4</td>
-                        <td>false</td>
-                        <td>Depends</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>L5LD</td>
-                        <td>A7</td>
-                        <td>None</td>
-                        <td>true</td>
-                        <td>false</td>
-                        <td>SC-5</td>
-                        <td>false</td>
-                        <td>Depends</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>L6LD</td>
-                        <td>A8</td>
-                        <td>None</td>
-                        <td>true</td>
-                        <td>false</td>
-                        <td>SC-5</td>
-                        <td>false</td>
-                        <td>Depends</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>L7LD</td>
-                        <td>A9</td>
-                        <td>N-CN9</td>
-                        <td>true</td>
-                        <td>false</td>
-                        <td>SC-5</td>
-                        <td>false</td>
-                        <td>Depends</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>L8LD</td>
-                        <td>A10</td>
-                        <td>N-CN9</td>
-                        <td>true</td>
-                        <td>false</td>
-                        <td>SC-ALPHA</td>
-                        <td>false</td>
-                        <td>Facility</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>L9LD</td>
-                        <td>A11</td>
-                        <td>N-CN9</td>
-                        <td>true</td>
-                        <td>false</td>
-                        <td>SC-ALPHA</td>
-                        <td>false</td>
-                        <td>Facility</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>L10LD</td>
-                        <td>A12</td>
-                        <td>N-CN9</td>
-                        <td>true</td>
-                        <td>false</td>
-                        <td>SC-BETA</td>
-                        <td>false</td>
-                        <td>Facility</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>MEDLD</td>
-                        <td>A13</td>
-                        <td>Pyramid-490</td>
-                        <td>true</td>
-                        <td>false</td>
-                        <td>SC-4</td>
-                        <td>false</td>
-                        <td>All</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>Inferno</td>
-                        <td>A14</td>
-                        <td>None</td>
-                        <td>false</td>
-                        <td>true</td>
-                        <td>SC-OMNI</td>
-                        <td>false</td>
-                        <td>TBD</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>Frostbite</td>
-                        <td>A15</td>
-                        <td>None</td>
-                        <td>false</td>
-                        <td>true</td>
-                        <td>SC-OMNI</td>
-                        <td>false</td>
-                        <td>TBD</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>WH-Alpha</td>
-                        <td>A16</td>
-                        <td>None</td>
-                        <td>false</td>
-                        <td>true</td>
-                        <td>SC-5</td>
-                        <td>false</td>
-                        <td>Bottomside</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>WH-Beta</td>
-                        <td>A17</td>
-                        <td>None</td>
-                        <td>false</td>
-                        <td>true</td>
-                        <td>SC-5</td>
-                        <td>false</td>
-                        <td>Sector-5</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>WH-Charlie</td>
-                        <td>A18</td>
-                        <td>None</td>
-                        <td>false</td>
-                        <td>true</td>
-                        <td>SC-ALPHA</td>
-                        <td>false</td>
-                        <td>Sector-4</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>WH-Delta</td>
-                        <td>A19</td>
-                        <td>None</td>
-                        <td>false</td>
-                        <td>true</td>
-                        <td>SC-BETA</td>
-                        <td>false</td>
-                        <td>TBD</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>WH-Gamma</td>
-                        <td>A20</td>
-                        <td>None</td>
-                        <td>false</td>
-                        <td>true</td>
-                        <td>SC-Beta</td>
-                        <td>false</td>
-                        <td>TBD</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>WH-Zeta</td>
-                        <td>A21</td>
-                        <td>None</td>
-                        <td>false</td>
-                        <td>true</td>
-                        <td>SC-OMNI</td>
-                        <td>false</td>
-                        <td>TBD</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>ESDS</td>
-                        <td>A22</td>
-                        <td>None</td>
-                        <td>true</td>
-                        <td>true</td>
-                        <td>SC-Admin</td>
-                        <td>true</td>
-                        <td>All</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>System Corruption</td>
-                        <td>A23</td>
-                        <td>Unknown</td>
-                        <td>Unknown</td>
-                        <td>Unknown</td>
-                        <td>Unknown</td>
-                        <td>Unknown</td>
-                        <td>Unknown</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>Radiation Discharge</td>
-                        <td>A24</td>
-                        <td>None</td>
-                        <td>false</td>
-                        <td>true</td>
-                        <td>SC-Alpha</td>
-                        <td>false</td>
-                        <td>Entrance</td>
-                        <td>ㅤ</td>
-                    </tr>
-                    <tr>
-                        <td>Nuclear Attack</td>
-                        <td>A25</td>
-                        <td>TBD</td>
-                        <td>false</td>
-                        <td>Unknown, incoming missile could be unarmed.</td>
-                        <td>SYSTEM</td>
-                        <td>false</td>
-                        <td>Depends</td>
-                        <td>ㅤ</td>
-                    </tr>
-                </tbody>
-            </table>
-        </p> -->
-        </div>
-    </body>
+     <body>
+     
+         <div class="index-box-header">
+             <h1>Wrecker's Website</h1>
+             <p>(WIP)</p>
+         </div>
+         
+     </body>
+  <script src="./docs/js/navbarItems.js"></script>
+  <script src="./docs/js/home.js"></script>
+  <script>
+    init_navbar_ul("Home","root");
+    fetch('https://raw.githubusercontent.com/thelocalfurry/Website/Testing/package.json')
+    .then(response => response.json())
+    .then(data => document.getElementById("current-version").innerHTML += data.version);
+  </script>
+  <script src="./dist/windows-ui.min.js"></script>
+  <script src="./docs/js/highlight.min.js"></script>
+  <script>hljs.highlightAll()</script>
+  <script>
+    document.getElementById("code_view_1").innerHTML =
+    hljs.highlightAuto(`
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/windows-ui-fabric@4.0.1/dist/config/app-config.css" rel="stylesheet" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/windows-ui-fabric@4.0.1/dist/windows-ui.min.css" rel="stylesheet" crossorigin="anonymous"/>
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/windows-ui-fabric@4.0.1/dist/icons/winui-icons.css" rel="stylesheet" crossorigin="anonymous"/>
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/windows-ui-fabric@4.0.1/dist/windows-ui.min.js" crossorigin="anonymous"><\/script>
+    `).value;
+    
+    document.getElementById("code_view_2").innerHTML =
+    hljs.highlightAuto(`
+    $ npm install windows-ui-fabric
+    
+    @import "windows-ui-fabric/dist/config/app-config.css";
+    @import "windows-ui-fabric/dist/windows-ui.min.css";
+    @import "windows-ui-fabric/dist/icons/winui-icons.css";
+    
+    `).value;
+  </script>
 </html>
